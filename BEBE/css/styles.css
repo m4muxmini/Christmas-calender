@@ -3,6 +3,10 @@ body {
     font-size: 300%;
 }
 
+h1 {
+    text-align: center;
+}
+
 .calendar {
     display: flex;
     flex-wrap: wrap;
