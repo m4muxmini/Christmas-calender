@@ -1,0 +1,30 @@
+body {
+    font: 100% "Helvetica neue", Helvetica, Arial, Verdana, sans-serif;
+}
+
+.calendar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: aqua;
+}
+
+.door {
+    width: 300px;
+    height: 200px;
+    background-color: brown;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.door.open {
+    background-color: lightblue;
+}
+
+.center-image {
+    display: block;
+    margin: 0 auto;
+}
